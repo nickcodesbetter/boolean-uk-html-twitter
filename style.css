@@ -21,7 +21,7 @@
   /* Remove defaults from navigation */
   
   /* nav ul { */
-    ul {
+    ul li {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -104,6 +104,16 @@ h6 {
   
  /* Navbar Styles */
 
+.navbar-height {
+  height: 40px;
+
+}
+
+.navbar {
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
+  margin-block-end: 0px;
+}
 
  .space {
    height: 100px;
